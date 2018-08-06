@@ -19,9 +19,11 @@ MVVM이란?
 MVVM은 Model-View-View Model의 약자로 MVC에 View Model을 추가한 것입니다. 새로 추가된 View Model은 Controller를 대신해 Formatting을 비롯한 코드들은 다루게 됩니다. 이에 따라 Controller 부담이 경감됩니다. 프로그래밍 언어에 따라 View Model이 아예 Controller를 대체하기도 하지만 iOS의 View Model은 Data Binding 부분이 다소 취약하여 Controller를 완전히 없앨 수는 없습니다. 
 
 
-iOS에서의 MVVM은 MVC와 아주 큰 차이는 없습니다. MVVM의 주요 특징은 다음과 같습니다.
+iOS에서의 MVVM은 MVC와 아주 큰 차이는 없습니다. MVVM의 주요 특징은 다음과 같습 니다.
 
     · Controller는 더 이상 Model에게 말을 걸 수 없습니다. View Model을 통합니다.
     · Model과 View Model이 하나의 짝을 이루고, View와 Controller가 짝을 이루는 구조가 됩니다.
     · View Model은 Presentation Logic을 다루게 됩니다. 하지만 UI는 다루지 않습니다. (UIKit import 금지) 
 
+ 
+ 
